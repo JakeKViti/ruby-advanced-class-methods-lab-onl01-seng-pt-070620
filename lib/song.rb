@@ -35,6 +35,6 @@ class Song
   end
 
   def Song.destroy_all
-    @@all = []
+         self.all = []
   end
 end
