@@ -42,7 +42,7 @@ class Song
   end
 
   def Song.alphabetical
-    self.all.sort
+    self.all.sort_by { |w| w[0].match?(/[A-Z]/) ? 0 : 1 }
   end
 
   def Song.destroy_all
