@@ -42,7 +42,7 @@ class Song
   end
 
   def Song.alphabetical
-    self.all.sort_by { |word| word.length }
+    self.sort_by { |song| song.name }
   end
 
   def Song.new_from_filename(name)
