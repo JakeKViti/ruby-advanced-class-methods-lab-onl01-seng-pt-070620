@@ -45,11 +45,11 @@ class Song
     self.all.sort_by { |w| w[0].match?(/[A-Z]/) ? 0 : 1 }
   end
 
-  def Song.new_from_filename
+  def Song.new_from_filename(name)
 
   end
 
-  def Song.create_from_filename
+  def Song.create_from_filename(name)
 
   end
 
