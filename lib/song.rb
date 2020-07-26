@@ -45,6 +45,14 @@ class Song
     self.all.sort_by { |w| w[0].match?(/[A-Z]/) ? 0 : 1 }
   end
 
+  def Song.new_from_filename
+
+  end
+
+  def Song.create_from_filename
+
+  end
+
   def Song.destroy_all
     self.all.clear
   end
