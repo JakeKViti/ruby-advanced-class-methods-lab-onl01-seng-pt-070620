@@ -46,11 +46,11 @@ class Song
   end
 
   def Song.new_from_filename(name)
-
+    name.create
   end
 
   def Song.create_from_filename(name)
-
+    name.create
   end
 
   def Song.destroy_all
